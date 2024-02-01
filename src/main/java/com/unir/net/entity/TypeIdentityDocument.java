@@ -21,4 +21,7 @@ public class TypeIdentityDocument implements Serializable {
     @Column
     private String typeIdentyDocument;
 
+    @Column
+    private boolean enabled;
+
 }
